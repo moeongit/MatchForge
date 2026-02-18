@@ -5,6 +5,12 @@ spring:
     url: ${DB_URL:jdbc:postgresql://localhost:5432/matchforge}
     username: ${DB_USERNAME:matchforge}
     password: ${DB_PASSWORD:matchforge}
+    hikari:
+      max-lifetime: 240000
+      keepalive-time: 30000
+      idle-timeout: 60000
+      minimum-idle: 0
+      maximum-pool-size: 5
   jpa:
     hibernate:
       ddl-auto: validate
