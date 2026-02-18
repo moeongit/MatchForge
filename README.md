@@ -1,4 +1,7 @@
-# matchforge monorepo
+# MatchForge
+<img width="1179" height="753" alt="image" src="https://github.com/user-attachments/assets/dd374c33-c521-470b-9208-0f69928e1178" />
+<img width="1179" height="753" alt="image" src="https://github.com/user-attachments/assets/dd374c33-c521-470b-9208-0f69928e1178" />
+
 
 Monorepo containing:
 - `api`: Spring Boot 3 (Java 21) REST API
@@ -120,3 +123,4 @@ npm run dev
 ```
 
 Open `http://localhost:3000`.
+
